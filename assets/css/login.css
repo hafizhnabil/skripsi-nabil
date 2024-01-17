@@ -539,3 +539,30 @@
     color: #fcfefe;
     font-family: 'Work Sans';
 }
+
+@media screen and (max-width:1920px) and (min-width: 1600px) {
+	.footer {
+		width: 100%;
+	}
+    .navbar {
+		width: 100%;
+	}
+    .topmost {
+		width: 100%;
+	}
+    .navbar-menu {
+        position: absolute;
+        left: 260px;
+    }
+    .contact-section {
+        width: 45%;
+        height: 60%;
+    }
+    .login-button1 {
+        position: relative;
+        left: 595px;
+    }
+    .content-login {
+        left: 450px;
+    }
+}

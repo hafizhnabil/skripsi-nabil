@@ -1660,6 +1660,14 @@ a {
     text-decoration: none;
 }
 
+.profil-nabil-icon {
+    position: relative;
+    border-radius: 50%;
+    width: 70px;
+    height: 75px;
+    object-fit: cover;
+}
+
 @media screen and (max-width:1920px) and (min-width: 1600px) {
 	.footer {
 		width: 100%;
@@ -1705,6 +1713,10 @@ a {
         left: 260px;
     }
     .login-button {
+        position: relative;
+        left: 600px;
+    }
+    .profil-nabil-icon {
         position: relative;
         left: 600px;
     }
