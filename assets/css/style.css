@@ -1655,6 +1655,11 @@
     font-family: 'Work Sans';
 }
 
+a {
+    color: #fdcedf;
+    text-decoration: none;
+}
+
 @media screen and (max-width:1920px) and (min-width: 1600px) {
 	.footer {
 		width: 100%;
