@@ -1695,4 +1695,12 @@
     .contacts-section {
         left: 480px;
     }
+    .navbar-menu {
+        position: absolute;
+        left: 260px;
+    }
+    .login-button {
+        position: relative;
+        left: 600px;
+    }
 }
