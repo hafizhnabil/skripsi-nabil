@@ -1722,7 +1722,6 @@ a {
     }
 }
 
-
 @media screen and (min-width:1280px) and (max-width:1367px) {
     .footer {
         width: 1500px;
@@ -1731,15 +1730,11 @@ a {
         width: 1421px;
     }
     .navbar {
-        width: 1366px;
+        width: 1505px;
     }
-    .navbar-menu {
-        position: absolute;
-        left: 200px;
-    }
-    .login-button {
+    .profil-nabil-icon {
         position: relative;
-        left: 490px;
+        right: 85px;
     }
     .fast-service {
         position: relative;

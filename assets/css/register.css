@@ -8,15 +8,7 @@
     left: 0%;
     background-color: #ffb7d1;
 }
-.copyright-2023 {
-    position: absolute;
-    width: 65.52%;
-    top: 93.24%;
-    left: 0%;
-    font-size: 16px;
-    display: inline-block;
-}
-.vector-1-icon {
+.content-footer-child {
     position: absolute;
     height: 0.36%;
     width: 100%;
@@ -27,6 +19,14 @@
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
+}
+.copyright-2023 {
+    position: absolute;
+    width: 65.52%;
+    top: 93.24%;
+    left: 0%;
+    font-size: 16px;
+    display: inline-block;
 }
 .contact-us1 {
     position: absolute;
@@ -215,32 +215,34 @@
     position: absolute;
     top: 1070px;
     left: 0px;
-    width: 1602px;
+    width: 1600px;
     height: 427px;
 }
-.klik-disini {
+.login {
     position: absolute;
-    top: 540px;
-    left: 370px;
+    top: 654px;
+    left: 780px;
+    font-size: 18px;
     font-weight: 500;
 }
-.belum-mendaftar {
+.sudah-terdaftar {
     position: absolute;
-    top: 536px;
-    left: 0px;
+    top: 650px;
+    left: 410px;
+    font-size: 18px;
     line-height: 140%;
 }
 .button {
     position: relative;
     font-weight: 500;
 }
-.login-button {
+.register-button {
     position: absolute;
-    top: 443px;
-    left: 0px;
+    top: 557px;
+    left: 410px;
     border-radius: 50px;
-    border: 1px solid #a03d56;
     background-color: #a03d56;
+    border: 1px solid #a03d56;
     width: 170px;
     height: 60px;
     display: flex;
@@ -252,22 +254,25 @@
     font-size: 16px;
     color: #ffb7d1;
 }
-.klik-disini1 {
+.ulangi-password {
     position: absolute;
-    top: 361px;
-    left: 370px;
-    font-weight: 500;
-}
-.lupa-password {
-    position: absolute;
-    top: 357px;
-    left: 0px;
-    line-height: 140%;
+    top: 447px;
+    left: 408px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 379px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 9px 7px;
 }
 .password {
     position: absolute;
-    top: 270px;
-    left: 0px;
+    top: 360px;
+    left: 408px;
     border-radius: 6px;
     border: 1px solid #000;
     box-sizing: border-box;
@@ -278,12 +283,11 @@
     align-items: center;
     justify-content: flex-start;
     padding: 9px 7px;
-    font-size: 14px;
 }
 .email {
     position: absolute;
-    top: 153px;
-    left: 0px;
+    top: 273px;
+    left: 408px;
     border-radius: 6px;
     border: 1px solid #000;
     box-sizing: border-box;
@@ -294,39 +298,106 @@
     align-items: center;
     justify-content: flex-start;
     padding: 9px 7px;
-    font-size: 14px;
 }
-.log-in {
+.username {
+    position: absolute;
+    top: 190px;
+    left: 410px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 379px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 9px 7px;
+}
+.nama-lengkap {
+    position: absolute;
+    top: 108px;
+    left: 410px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 379px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 9px 7px;
+}
+.register {
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 410px;
     font-size: 64px;
     font-family: 'Yeseva One';
     color: #ffb7d1;
     text-align: center;
 }
-.login-form {
+.register-icon {
     position: absolute;
-    top: 0px;
-    left: 445px;
-    width: 456px;
-    height: 561px;
-}
-.enter-icon {
-    position: absolute;
-    top: 113px;
+    top: 182px;
     left: 0px;
     width: 255px;
     height: 255px;
     object-fit: cover;
 }
-.content-login {
+.content-register {
     position: absolute;
-    top: 313px;
-    left: 350px;
-    width: 901px;
-    height: 561px;
+    top: 277px;
+    left: 395px;
+    width: 828px;
+    height: 675px;
+    font-size: 14px;
     color: #000;
+}
+.lokasi {
+    position: relative;
+}
+.navbar-menu {
+    width: 759px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.button1 {
+    position: absolute;
+    top: calc(50% - 22.5px);
+    left: calc(50% - 56px);
+    border-radius: 50px;
+    background-color: #a03d56;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 13px 35px;
+}
+.login-button {
+    width: 112px;
+    position: relative;
+    height: 45px;
+    font-size: 16px;
+    color: #ffb7d1;
+}
+.navbar {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    background-color: #ffb7d1;
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 187px 18px;
+    box-sizing: border-box;
+    gap: 276px;
 }
 .topmost-child {
     position: absolute;
@@ -492,47 +563,10 @@
     color: #ffb7d1;
     font-family: 'Yeseva One';
 }
-.lokasi {
-    position: relative;
-}
-.navbar-menu {
-    width: 759px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 20px;
-}
-.login-button1 {
-    border-radius: 50px;
-    position: relative;
-    background-color: #a03d56;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 13px 35px;
-    font-size: 16px;
-    color: #ffb7d1;
-}
-.navbar {
-    position: absolute;
-    top: 80px;
-    left: 0px;
-    background-color: #ffb7d1;
-    width: 1600px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 17px 187px 18px;
-    box-sizing: border-box;
-    gap: 276px;
-}
-.login-halo-mahoni {
+.register-halo-mahoni {
+    width: 100%;
     position: relative;
     background-color: #fcfefe;
-    width: 100%;
     height: 1497px;
     overflow: hidden;
     text-align: left;
@@ -540,29 +574,26 @@
     color: #fcfefe;
     font-family: 'Work Sans';
 }
+.login a {
+    text-decoration: none;
+    color: #000;
+}
 .button a {
     text-decoration: none;
-    color: #FFB7D1;
-}
-.klik-disini a {
-    text-decoration: none;
-    color: #000;
-}
-.klik-disini1 a {
-    text-decoration: none;
-    color: #000;
+    color: #ffb7d1;
 }
 
+
 @media screen and (max-width:1920px) and (min-width: 1600px) {
-	.footer {
-		width: 100%;
-	}
+    .footer {
+        width: 100%;
+    }
     .navbar {
-		width: 100%;
-	}
+        width: 100%;
+    }
     .topmost {
-		width: 100%;
-	}
+        width: 100%;
+    }
     .navbar-menu {
         position: absolute;
         left: 260px;
@@ -571,47 +602,49 @@
         width: 45%;
         height: 60%;
     }
-    .login-button1 {
+    .login-button {
         position: relative;
         left: 595px;
     }
-    .content-login {
-        left: 450px;
+    .content-register {
+        left: 550px;
     }
 }
 
+
 @media screen and (min-width:1280px) and (max-width:1367px) {
-        .topmost {
-            width: 1550px;
-        }
-        .halomahoni1 {
-            position: relative;
-            left: 150px;
-        }
-        .contact-section {
-            position: absolute;
-            left: 550px;
-        }
-        .navbar {
-            width: 1400px;
-        }
-        .footer {
-            width: 1500px;
-        }
-        .login-button1 {
-            position: relative;
-            left: 18px;
-        }
-        .navbar-menu {
-            position: relative;
-            right: 30px;
-        }
-        .content-login {
-            position: absolute;
-            left: 250px;
-        }
-        .content-footer {
-            position: relative;
-            left: 150px;
-        }
-    } 
+    .topmost {
+        width: 1550px;
+    }
+    .halomahoni1 {
+        position: relative;
+        left: 150px;
+    }
+    .contact-section {
+        position: absolute;
+        left: 550px;
+    }
+    .navbar {
+        width: 1400px;
+    }
+    .footer {
+        width: 1500px;
+    }
+    .login-button {
+        position: relative;
+        left: 18px;
+    }
+    .navbar-menu {
+        position: relative;
+        right: 30px;
+    }
+    .content-register {
+        position: absolute;
+        left: 270px;
+    }
+    .content-footer {
+        position: relative;
+        left: 150px;
+    }
+}
+
