@@ -1157,6 +1157,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 20px;
+    position: relative;
+    right: 20px;
 }
 .login {
     position: relative;
